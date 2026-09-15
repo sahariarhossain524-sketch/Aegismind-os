@@ -1,0 +1,29 @@
+{
+  "timestamp": 1789503950.7854254,
+  "device": "Intel Core Ultra NPU / Arc GPU",
+  "fp32": {
+    "p50_ms": 8.447,
+    "p95_ms": 8.587,
+    "p99_ms": 8.593,
+    "mean_ms": 8.445,
+    "fps": 118,
+    "memory_mb": 312.4
+  },
+  "fp16": {
+    "p50_ms": 1.27,
+    "p95_ms": 1.315,
+    "p99_ms": 1.317,
+    "mean_ms": 1.27,
+    "fps": 788,
+    "memory_mb": 154.2
+  },
+  "int8": {
+    "p50_ms": 0.284,
+    "p95_ms": 0.293,
+    "p99_ms": 0.302,
+    "mean_ms": 0.283,
+    "fps": 3526,
+    "memory_mb": 41.8
+  },
+  "speedup_vs_fp32": 29.74
+}

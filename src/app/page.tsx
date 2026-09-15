@@ -8,6 +8,7 @@ import { ASTSelfHealingCard } from '@/components/ASTSelfHealingCard';
 import { VoiceSupervisionBar } from '@/components/VoiceSupervisionBar';
 import { TaskStateStackHUD } from '@/components/TaskStateStackHUD';
 import { BenchmarkModal } from '@/components/BenchmarkModal';
+import { JudgeDemoSimulation } from '@/components/JudgeDemoSimulation';
 import { Zap, AlertTriangle, ShieldCheck } from 'lucide-react';
 
 export default function AegisMindDashboard() {
@@ -191,6 +192,9 @@ export default function AegisMindDashboard() {
             </button>
           </div>
         </div>
+
+        {/* 1-Click Judge Failure & Autonomous Self-Healing Simulator */}
+        <JudgeDemoSimulation />
 
         {/* Section 1: Multi-Agent Mesh & Adversarial Validation */}
         <MultiAgentMeshCard
