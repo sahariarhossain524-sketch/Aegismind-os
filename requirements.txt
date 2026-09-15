@@ -1,0 +1,14 @@
+# AegisMind.OS - Python Backend, Intel OpenVINO & Benchmark Dependencies
+# Target Environment: Python 3.10+ on Intel Core Ultra (NPU / iGPU / CPU)
+
+# Core Edge Vision & Neural Network Acceleration (Intel Sponsor Stack)
+openvino>=2024.0.0
+nncf>=2.9.0
+numpy>=1.24.0
+
+# Optional PyTorch baseline comparison (for benchmark_openvino.py)
+torch>=2.0.0
+
+# Utility & Verification
+typing-extensions>=4.8.0
+requests>=2.31.0

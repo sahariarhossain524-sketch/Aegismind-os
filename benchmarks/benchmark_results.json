@@ -1,29 +1,29 @@
 {
-  "timestamp": 1789503950.7854254,
+  "timestamp": 1789504584.3785641,
   "device": "Intel Core Ultra NPU / Arc GPU",
   "fp32": {
-    "p50_ms": 8.447,
-    "p95_ms": 8.587,
-    "p99_ms": 8.593,
-    "mean_ms": 8.445,
+    "p50_ms": 8.448,
+    "p95_ms": 8.588,
+    "p99_ms": 8.595,
+    "mean_ms": 8.448,
     "fps": 118,
     "memory_mb": 312.4
   },
   "fp16": {
-    "p50_ms": 1.27,
+    "p50_ms": 1.271,
     "p95_ms": 1.315,
-    "p99_ms": 1.317,
-    "mean_ms": 1.27,
-    "fps": 788,
+    "p99_ms": 1.318,
+    "mean_ms": 1.271,
+    "fps": 787,
     "memory_mb": 154.2
   },
   "int8": {
     "p50_ms": 0.284,
-    "p95_ms": 0.293,
+    "p95_ms": 0.3,
     "p99_ms": 0.302,
-    "mean_ms": 0.283,
-    "fps": 3526,
+    "mean_ms": 0.284,
+    "fps": 3520,
     "memory_mb": 41.8
   },
-  "speedup_vs_fp32": 29.74
+  "speedup_vs_fp32": 29.75
 }
